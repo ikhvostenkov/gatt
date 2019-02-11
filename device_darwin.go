@@ -377,7 +377,7 @@ func (d *device) HandleXpcEvent(event xpc.Dict, err error) {
 
 	switch id {
 	case // device event
-		6,  // StateChanged
+		4,  // StateChanged
 		16, // AdvertisingStarted
 		17, // AdvertisingStopped
 		18: // ServiceAdded
